@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/narizudo.f99aaaae.png"
   },
   {
-    "revision": "23e69974a155ea76acbc12efce8ed51e",
+    "revision": "3954d5dc1725c061b84b80a6da11af92",
     "url": "/index.html"
   }
 ];
