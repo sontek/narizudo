@@ -1,0 +1,203 @@
+// Global (i.e. can be used anywhere) utils
+@import "./variables.scss";
+
+.noMargin {
+  margin: 0rem;
+}
+
+.noPadding {
+  padding: 0rem;
+}
+
+@for $i from 1 through 10 {
+  .lineHeight#{$i} {
+    line-height: #{$i};
+  }
+
+  .margin#{$i} {
+    margin: #{$i}rem;
+  }
+
+  .marginLeft#{$i} {
+    margin-left: #{$i}rem;
+  }
+
+  .marginRight#{$i} {
+    margin-right: #{$i}rem;
+  }
+
+  .marginTop#{$i} {
+    margin-top: #{$i}rem;
+  }
+
+  .marginBottom#{$i} {
+    margin-bottom: #{$i}rem;
+  }
+
+  .marginBottom#{$i}i {
+    margin-bottom: #{$i}rem !important;
+  }
+
+  .paddingVertical#{$i} {
+    padding-top: #{$i}rem;
+    padding-bottom: #{$i}rem;
+  }
+
+  .padding#{$i} {
+    padding: #{$i}rem;
+  }
+
+  .paddingLeft#{$i} {
+    padding-left: #{$i}rem;
+  }
+
+  .paddingRight#{$i} {
+    padding-right: #{$i}rem;
+  }
+}
+
+.bottom,
+.right {
+  position: absolute;
+}
+.bottom {
+  bottom: 0;
+}
+.right {
+  right: 0;
+}
+
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textCenter {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.flexbox__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flexbox__justifyEnd {
+  justify-content: flex-end;
+}
+.flexbox__col {
+  display: flex;
+  flex-direction: column;
+}
+.flexbox__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox_grow {
+  flex-grow: 1;
+}
+.flexbox_greedy {
+  flex-basis: 100%;
+}
+
+.offsetParent {
+  position: relative;
+}
+
+.fullHeight {
+  height: 100%;
+}
+.fullWidth {
+  width: 100% !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.gt_breakSmall {
+  @media (max-width: $break-small) {
+    display: none !important;
+  }
+}
+.gt_breakLarge {
+  @media (max-width: $break-large) {
+    display: none !important;
+  }
+}
+
+.noScroll,
+.hideOverflow {
+  overflow: hidden !important;
+}
+
+.hideOverflow {
+  white-space: nowrap !important;
+}
+
+.hideTextOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
+.inline {
+  display: inline;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.hideOnMobile {
+  @media (max-width: $break-small) {
+    display: none !important;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lteParentWidth {
+  max-width: 100% !important;
+}
