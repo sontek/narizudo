@@ -20,6 +20,7 @@ class Theme extends React.Component {
   render() {
     return (
       <div className={cx(styles.theme1, styles.theme)}>
+        <h2>El Narizudo</h2>
         <div className={styles.section1} id='section1'>
           <img src={logo} />
         </div>
