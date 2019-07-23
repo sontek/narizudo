@@ -22,6 +22,21 @@ body {
   margin: 0;
 }
 
+button {
+  background: none;
+  border: solid 1px;
+  outline: none;
+  box-shadow: none;
+  background-color: #01FF70;
+  padding: 10px;
+  cursor: pointer;
+}
+.center {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
 .theme {
   height: 100%;
   width: 100%;
@@ -35,8 +50,10 @@ body {
     max-width: 50%;
     display: block;
     margin: 0 auto;
-    animation:spin 4s linear infinite;
   }
+}
+.rotate {
+  animation:spin 4s linear infinite;
 }
 .theme1 {
   $headingColor: #ffffff;
