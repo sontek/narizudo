@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ed35020cc12b59450567",
+    "revision": "9d71b1b848c65560b0e0",
     "url": "/static/css/main.608eda84.chunk.css"
   },
   {
-    "revision": "ed35020cc12b59450567",
-    "url": "/static/js/main.ed35020c.chunk.js"
+    "revision": "9d71b1b848c65560b0e0",
+    "url": "/static/js/main.9d71b1b8.chunk.js"
   },
   {
     "revision": "f5c1ec6b455302b82438",
@@ -32,11 +32,11 @@ self.__precacheManifest = [
     "url": "/static/media/MMCOFFICE-REGULAR.dd2c8a0d.ttf"
   },
   {
-    "revision": "f99aaaae2a3ba44a1128000f186dd33e",
-    "url": "/static/media/narizudo.f99aaaae.png"
+    "revision": "4eeddba22ca5319bcbe7a2a8595d9fbd",
+    "url": "/static/media/narizudo.4eeddba2.png"
   },
   {
-    "revision": "3954d5dc1725c061b84b80a6da11af92",
+    "revision": "b99594179cebe6608cda49863a1b5b82",
     "url": "/index.html"
   }
 ];
