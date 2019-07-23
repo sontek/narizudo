@@ -15,7 +15,7 @@
     url("../fonts/MMCOFFICE-BOLD.ttf") format("truetype");
 }
 body {
-  background: #999;
+  background: #3D9970;
 }
 * {
   padding: 0;
@@ -26,6 +26,8 @@ body {
   height: 100%;
   width: 100%;
 }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 .section1 {
   margin: 0 auto;
   img {
@@ -33,6 +35,7 @@ body {
     max-width: 50%;
     display: block;
     margin: 0 auto;
+    animation:spin 4s linear infinite;
   }
 }
 .theme1 {
