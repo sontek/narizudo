@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/narizudo/precache-manifest.d99a8b1bb685b1c34425f5a8e725003e.js"
+  "/narizudo/precache-manifest.a5bd1eff0814f6c77ce1089a2e815f10.js"
 );
 
 workbox.clientsClaim();
