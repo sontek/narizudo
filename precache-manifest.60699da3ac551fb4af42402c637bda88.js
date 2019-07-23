@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/static/media/MMCOFFICE-BOLD.2c63c492.ttf"
   },
   {
-    "revision": "dd2c8a0d762ea7ac040d56d9caa82921",
-    "url": "/static/media/MMCOFFICE-REGULAR.dd2c8a0d.ttf"
-  },
-  {
     "revision": "f0dce1ab57233d3ff7329643229366d2",
     "url": "/static/media/MMCOFFICE-REGULAR.f0dce1ab.eot"
+  },
+  {
+    "revision": "dd2c8a0d762ea7ac040d56d9caa82921",
+    "url": "/static/media/MMCOFFICE-REGULAR.dd2c8a0d.ttf"
   },
   {
     "revision": "f99aaaae2a3ba44a1128000f186dd33e",
