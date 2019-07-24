@@ -19,7 +19,7 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "predeploy": "PUBLIC_URL=/ yarn build && cp CNAME ./dist",
+    "predeploy": "PUBLIC_URL=/ yarn",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
