@@ -7,7 +7,7 @@
     "classnames": "^2.2.6",
     "console-polyfill": "^0.3.0",
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "react": "^16.6.3",
     "react-app-polyfill": "^0.2.2",
     "react-burger-menu": "^2.5.4",
